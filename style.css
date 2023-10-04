@@ -236,6 +236,7 @@ figure {
 .progress {
   position: absolute;
   height: 100%;
+  border-radius: 30px;
   background-color: var(--orange);
 }
 
