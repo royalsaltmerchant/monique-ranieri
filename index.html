@@ -42,26 +42,45 @@
           </article>
         </div>
         <div id="demos">
-          <article>
-
-            <h2>Demos:</h2>
             <figure>
               <figcaption>Animation Voice Demo Reel</figcaption>
-              <audio controls src="./assets/audio/character_voice_demo.mp3">
-                <a href="./assets/audio/character_voice_demo.mp3">Download Audio</a>
-              </audio>
+              <div class="audio-player">
+                  <audio class="audio-element">
+                      <source src="./assets/audio/character_voice_demo.mp3" type="audio/mpeg">
+                      Your browser does not support the audio tag.
+                  </audio>
+                  <button class="playPauseButton">Play</button>
+                  <div class="progress-bar">
+                      <div class="progress"></div>
+                  </div>
+              </div>
+          </figure>
             <figure>
-              <figcaption>Video-Game Voice Demo Reel</figcaption>
-              <audio controls src="./assets/audio/video_game_voice_demo.mp3">
-                <a href="./assets/audio/video_game_voice_demo.mp3">Download Audio</a>
-              </audio>
+              <figcaption>Video Game Voice Demo Reel</figcaption>
+              <div class="audio-player">
+                  <audio class="audio-element">
+                      <source src="./assets/audio/video_game_voice_demo.mp3" type="audio/mpeg">
+                      Your browser does not support the audio tag.
+                  </audio>
+                  <button class="playPauseButton">Play</button>
+                  <div class="progress-bar">
+                      <div class="progress"></div>
+                  </div>
+              </div>
+          </figure>
             <figure>
               <figcaption>Singing Demo</figcaption>
-              <audio controls src="./assets/audio/singing_demo.mp3">
-                <a href="./assets/audio/singing_demo.mp3">Download Audio</a>
-              </audio>
-            </figure>
-          </article>
+              <div class="audio-player">
+                  <audio class="audio-element">
+                      <source src="./assets/audio/singing_demo.mp3" type="audio/mpeg">
+                      Your browser does not support the audio tag.
+                  </audio>
+                  <button class="playPauseButton">Play</button>
+                  <div class="progress-bar">
+                      <div class="progress"></div>
+                  </div>
+              </div>
+          </figure>
         </div>
       </main>
       <footer id="contact">
@@ -88,4 +107,5 @@
       </footer>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
