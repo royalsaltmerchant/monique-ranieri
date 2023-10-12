@@ -240,3 +240,17 @@ figure {
   background-color: var(--orange);
 }
 
+.video-div {
+  max-width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
